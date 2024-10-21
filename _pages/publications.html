@@ -1,0 +1,235 @@
+---
+layout: publication-archive
+title: "Publications"
+permalink: /publications/
+author_profile: false
+---
+
+
+{%  comment %}
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+{% endcomment %}
+
+
+<!-- Section for Group 1 of Papers -->
+<section>
+    <h3>Core Publications</h3>
+    <ul class="publication-list">
+      <li class="publication-item">
+        <p>
+          <span class="authors">
+            <strong>Ziyu Wang</strong>, Lejun Min, and Gus Xia</span>, 
+          <a href="https://openreview.net/forum?id=sn7CYWyavh" class="paper-title" target="_blank">Whole-Song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models</a>, 
+          in <em>Proceedings of the 12th International Conference on Learning Representations (ICLR)</em>, 2024.
+          [<a href="https://wholesonggen.github.io/" class="paper-link" target="_blank">demo</a>]
+          [<a href="https://github.com/ZZWaang/whole-song-gen" class="paper-link" target="_blank">code</a>]
+        </p>
+      </li>
+
+      <li class="publication-item">
+        <p>
+          <span class="authors">
+            Yuxuan Wu, <strong>Ziyu Wang</strong>, Bhiksha Raj, and Gus Xia</span>, 
+          <a href="https://arxiv.org/abs/2407.03824" class="paper-title" target="_blank">Emergent Interpretable Symbols and Content-Style Disentanglement via Variance-Invariance Constraints</a>, 
+          in <em>arXiv preprint, arXiv:2407.03824 [cs.LG]</em>, 2024.
+          [<a href="https://v3-content-style.github.io/V3-demo/" class="paper-link" target="_blank">demo</a>]
+        </p>
+      </li>
+      
+      <li class="publication-item">
+        <p>
+          <span class="authors">
+            <strong>Ziyu Wang</strong>, Dejing Xu, Gus Xia, and Ying Shan</span>, 
+          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9747884" class="paper-title" target="_blank">Audio-To-Symbolic Arrangement Via Cross-Modal Music Representation Learning</a>, 
+          in <em>Proceedings of 47th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2022.
+          [<a href="https://youtu.be/Ahfk0hvpCzM?t=3316" class="paper-link" target="_blank">music1</a>]
+          [<a href="https://youtu.be/jjr2gDgzrMg" class="paper-link" target="_blank">music2</a>]
+          [<a href="https://youtu.be/ymBHYtL4NJY?t=1346" class="paper-link" target="_blank">talk</a>]
+          [<a href="https://github.com/ZZWaang/audio2midi" class="paper-link" target="_blank">code</a>]
+        </p>
+      </li>
+      
+      <li class="publication-item">
+        <p>
+          <span class="authors">
+            <strong>Ziyu Wang</strong>, and Gus Xia</span>, 
+          <a href="https://archives.ismir.net/ismir2021/paper/000090.pdf" class="paper-title" target="_blank">MuseBERT: Pre-training of Music Representation for Music Understanding and Controllable Generation</a>, 
+          in <em>Proceedings of the 22nd International Society for Music Information Retrieval Conference (ISMIR)</em>, 2021.
+          [<a href="https://github.com/ZZWaang/musebert" class="paper-link" target="_blank">code</a>]
+        </p>
+      </li>
+
+    <li class="publication-item">
+      <p>
+        <span class="authors">
+          <strong>Ziyu Wang</strong>, Dingsu Wang, Yixiao Zhang and Gus Xia</span>, 
+        <a href="https://archives.ismir.net/ismir2020/paper/000094.pdf" class="paper-title" target="_blank">Learning Interpretable Representation for Controllable Polyphonic Music Generation</a>, 
+        in <em>Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR)</em>, 2020.
+        [<a href="https://youtu.be/jjr2gDgzrMg" class="paper-link" target="_blank">music1</a>]
+        [<a href="https://youtu.be/NN4bKA8f3v4" class="paper-link" target="_blank">music2</a>]
+        [<a href="https://youtu.be/Ahfk0hvpCzM?t=3163" class="paper-link" target="_blank">music3</a>]
+        [<a href="https://youtu.be/ymBHYtL4NJY?t=994" class="paper-link" target="_blank">talk</a>]
+        [<a href="https://github.com/ZZWaang/polyphonic-chord-texture-disentanglement" class="paper-link" target="_blank">code</a>]
+      </p>
+    </li>
+  
+    <li class="publication-item">
+      <p>
+        <span class="authors">
+          <strong>Ziyu Wang</strong>, Yiyi Zhang, Yixiao Zhang, Junyan Jiang, Junbo Zhao, and Gus Xia</span>, 
+        <a href="https://archives.ismir.net/ismir2020/paper/000096.pdf" class="paper-title" target="_blank">PianoTree VAE: Structured Representation Learning for Polyphonic Music</a>, 
+        in <em>Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR)</em>, 2020.
+        [<a href="https://youtu.be/ymBHYtL4NJY?t=432" class="paper-link" target="_blank">talk</a>]
+        [<a href="https://github.com/ZZWaang/PianoTree-VAE" class="paper-link" target="_blank">code</a>]
+      </p>
+    </li>
+  
+    <li>
+      <p>
+        <span class="authors">
+          <strong>Ziyu Wang</strong>*, Ke Chen*, Yiyi Zhang, Junyan Jiang, Maoran Xu, Shuqi Dai, and Gus Xia</span>, 
+        <a href="https://archives.ismir.net/ismir2020/paper/000089.pdf" class="paper-title" target="_blank">POP909: A Pop-Song Dataset for Music Arrangement Generation</a>, 
+        in <em>Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR)</em>, 2020.
+        [<a href="https://github.com/music-x-lab/POP909-Dataset" class="paper-link" target="_blank">code</a>]
+      </p>
+    </li>
+    
+    <li class="publication-item">
+      <p>
+        <span class="authors">
+          Ruihan Yang, Dingsu Wang, <strong>Ziyu Wang</strong>, Tianyao Chen, Junyan Jiang, and Gus Xia</span>, 
+        <a href="https://archives.ismir.net/ismir2019/paper/000072.pdf" class="paper-title" target="_blank">Deep Music Analogy Via Latent Representation Disentanglement</a>, 
+        in <em>Proceedings of the 20st International Society for Music Information Retrieval Conference (ISMIR)</em>, 2019.
+        [<a href="https://youtu.be/bteuPnpHNx8" class="paper-link" target="_blank">music</a>]
+        [<a href="https://github.com/ZZWaang/icm-deep-music-generation" class="paper-link" target="_blank">tutorial</a>]
+        [<a href="https://github.com/buggyyang/Deep-Music-Analogy-Demos" class="paper-link" target="_blank">code</a>]
+      </p>
+    </li>
+
+  </ul>
+
+    <h3>Other Publications</h3>
+    <ul>
+      <li class="publication-item">
+        <p>
+          <span class="authors">
+            Kun Fang, <strong>Ziyu Wang</strong>, Gus Xia, and Ichiro Fujinaga</span>, 
+          <a href="https://ismir2024.ismir.net/accepted-papers" class="paper-title" target="_blank">Exploring GPT's Ability as a Judge in Music Understanding</a>, 
+          in <em>Proceedings of the 25th International Society for Music Information Retrieval Conference (ISMIR)</em>, 2024.
+          [<a href="https://github.com/kunfang98927/gpt-eval-mir" class="paper-link" target="_blank">code</a>]
+        </p>
+      </li>
+    
+    <li class="publication-item">
+      <p>
+        <span class="authors">
+          Jingwei Zhao, Gus Xia, <strong>Ziyu Wang</strong>, and Ye Wang</span>, 
+        <a href="https://nips.cc/virtual/2024/poster/95545" class="paper-title" target="_blank">Structured Multi-Track Accompaniment Arrangement via Style Prior Modelling</a>, 
+        in <em>38th Conference on Neural Information Processing Systems (NeurIPS)</em>, 2024.
+        [<a href="https://github.com/zhaojw1998/AccoMontage-3" class="paper-link" target="_blank">demo</a>]
+        [<a href="https://zhaojw1998.github.io/AccoMontage-3" class="paper-link" target="_blank">code</a>]
+      </p>
+    </li>
+    
+    <li class="publication-item">
+      <p>
+        <span class="authors">
+          Ruibin Yuan, <em>et al.</em>, including <strong>Ziyu Wang</strong></span>, 
+        <a href="https://aclanthology.org/2024.findings-acl.373.pdf" class="paper-title" target="_blank">ChatMusician: Understanding and Generating Music Intrinsically with LLM</a>, 
+        in <em>Findings of the Association for Computational Linguistics (ACL)</em>, 2024.
+        [<a href="https://ezmonyi.github.io/ChatMusician/" class="paper-link" target="_blank">demo</a>]
+        [<a href="https://github.com/hf-lin/ChatMusician" class="paper-link" target="_blank">code</a>]
+      </p>
+    </li>
+    
+    <li class="publication-item">
+      <p>
+        <span class="authors">
+          Yinghao Ma, <em>et al.</em>, including <strong>Ziyu Wang</strong></span>, 
+        <a href="https://arxiv.org/abs/2408.14340" class="paper-title" target="_blank">Foundation Models for Music: A Survey</a>, 
+        in <em>arXiv preprint, arXiv:2408.14340v2 [cs.SD]</em>, 2024.
+      </p>
+      </li>
+    
+
+   
+      <li class="publication-item">
+        <p>
+          <span class="authors">
+            Shiqi Wei, <strong>Ziyu Wang</strong>, Weiguo Gao, and Gus Xia</span>, 
+          <a href="https://ieeexplore.ieee.org/document/10096446" class="paper-title" target="_blank">Controllable Music Inpainting With Mixed-level and Disentangled Representation</a>, 
+          in <em>Proceedings of 48th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2023.
+          [<a href="https://vv2424.github.io/V3/" class="paper-link" target="_blank">demo</a>]
+          [<a href="https://github.com/SqWei17/Mixed-Encoding-for-Music-Inpainting" class="paper-link" target="_blank">code</a>]
+        </p>
+      </li>
+
+    <li class="publication-item">
+      <p>
+        <span class="authors">
+          Yan Qu*, Yutian Qin*, Lecheng Chao, Hangkai, Qian, <strong>Ziyu Wang</strong>, and Gus Xia</span>, 
+        <a href="https://archives.ismir.net/ismir2022/paper/000112.pdf" class="paper-title" target="_blank">Modeling Perceptual Loudness of Piano Tone: Theory and Applications</a>, 
+        in <em>Proceedings of the 23rd International Society for Music Information Retrieval Conference (ISMIR)</em>, 2022.
+        [<a href="https://github.com/yangqu2000/ModelingPerceptualLoudnessOfPianoTone" class="paper-link" target="_blank">code</a>]
+      </p>
+    </li>
+
+    <li class="publication-item">
+      <p>
+        <span class="authors">
+          Yixiao Zhang, <strong>Ziyu Wang</strong>, Dingsu Wang, and Gus Xia</span>, 
+        <a href="https://aclanthology.org/2020.nlp4musa-1.11.pdf" class="paper-title" target="_blank">BUTTER: A Representation Learning Framework for Bi-directional Music-Sentence Retrieval and Generation</a>, 
+        in <em>Proceedings of the 1st Workshop on NLP for Music and Audio (NLP4MusA)</em>, 2020.
+        [<a href="https://github.com/ldzhangyx/BUTTER" class="paper-link" target="_blank">code</a>]
+      </p>
+    </li>
+
+  <li class="publication-item">
+    <p>
+      <span class="authors">
+        Maoran Xu, <strong>Ziyu Wang</strong>, and Gus Xia</span>, 
+      <a href="https://ieeexplore.ieee.org/document/8683165" class="paper-title" target="_blank">Transferring Piano Performance Control Across Environments</a>, 
+      in <em>Proceedings of the 44th International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em>, 2019.
+    </p>
+  </li>
+
+  <li class="publication-item">
+    <p>
+      <span class="authors">
+        <strong>Ziyu Wang</strong> and Gus Xia</span>, 
+      <a href="https://arxiv.org/abs/1812.10906" class="paper-title" target="_blank">A Framework for Automated Pop-song Melody Generation and Piano Accompaniment Arrangement</a>, 
+      in <em>Proceedings of the 20st International Society for Music Information Retrieval Conference (ISMIR)</em>, 2019.
+    </p>
+  </li>
+</ul>
+</section>
+
+<p class="footnote">
+  * indicates equal contribution.
+</p>

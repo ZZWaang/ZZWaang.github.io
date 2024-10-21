@@ -1,0 +1,50 @@
+
+
+/* Styling for the video categories */
+.publications h2 {
+  /* text-align: center; */
+  margin-top: 2em;
+  color: #333; /* Optional: Set your preferred color */
+}
+
+/* Container for the videos */
+.publications .video-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows multiple rows of videos */
+  /* justify-content: center;  */
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 1000px; /* Adjust the max width as needed */
+  gap: 20px; /* Space between videos */
+}
+
+/* Each video block */
+.publications .video {
+  flex: 1 1 48%; /* Adjusts width based on container, aiming for 3 columns */
+  min-width: 300px; /* Minimum width before stacking */
+  max-width: 48%; /* Limit the max width of each video */
+  margin-bottom: 0px;
+}
+
+.publications .video iframe {
+  border-radius: 15px; /* Applies the rounded corners to the embedded video */
+}
+
+.video-caption {
+  padding: 0px; /* Adds padding around the caption */
+}
+
+.video-title {
+  font-weight: bold; /* Emphasizes the title */
+  margin-bottom: 0px; /* Adds some space below the title */
+  font-size: 16px; /* Adjusts the size */
+  margin-top: 10px;
+}
+
+.video-description {
+  font-size: 14px; /* Adjusts the size */
+  color: #555; 
+  margin-top: 5px;
+  margin-bottom: 0px
+}
+

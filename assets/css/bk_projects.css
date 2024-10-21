@@ -1,0 +1,49 @@
+/* General styling for the project container */
+.project {
+    display: flex;
+    align-items: flex-start;   /* Align items at the top */
+    margin-bottom: 2em;        /* Add some spacing between projects */
+  }
+  
+  /* Image styling */
+  .project-image {
+    margin-right: 20px;        /* Add space between image and content */
+    flex-shrink: 0;            /* Prevent the image from shrinking */
+  }
+  
+  .project-image img {
+    max-width: 200px;          /* Set the image size */
+    height: auto;
+    border-radius: 5px;        /* Optional: Add rounded corners */
+  }
+  
+  /* Content styling */
+  .project-content {
+    flex-grow: 1;              /* Make the content area grow to fill the available space */
+  }
+  
+  /* Title and paragraph styling */
+  .project-content h3 {
+    margin-top: 0;             /* Remove default margin */
+    font-size: 1.0em !important;
+
+  }
+  
+  .project-content p {
+    margin-bottom: 0.5em;      /* Add spacing below the introduction */
+    font-size: 0.8em !important;
+
+  }
+  
+  /* Links styling */
+  .project-links a {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease;
+  }
+  
+  .project-links a:hover {
+    color: #FF5733;            /* Change link color on hover */
+  }

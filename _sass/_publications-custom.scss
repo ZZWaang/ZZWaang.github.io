@@ -1,0 +1,105 @@
+.publications #main {
+  @include container;
+  @include clearfix;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  animation: intro 0.3s both;
+  animation-delay: 0.35s;
+
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+}
+
+.publications .page {
+  @include breakpoint($large) {
+    // @include span(10 of 12 last);
+    @include span(12 of 12 last);
+    @include prefix(0.5 of 12);
+    @include suffix(0.5 of 12);
+    @include suffix(0.5 of 12);
+
+  }
+
+.publications  .page__inner-wrap {
+    @include full();
+
+    .page__content,
+    .page__meta,
+    .page__share {
+      @include full();
+    }
+  }
+}
+
+.publications .archive {
+  margin-bottom: 2em;
+
+  @include breakpoint($medium) {
+    @include span(12 of 12);
+  }
+
+  @include breakpoint($large) {
+    @include span(12 of 12 last);
+    @include prefix(0 of 12);
+  }
+}
+
+.paper-link {
+  // text-decoration: underline;
+  text-decoration: none;
+  // font-weight: 400;
+  color: #CB494A; 
+}
+.paper-link:hover {
+    // text-decoration: underline;
+    text-decoration: none;
+    // color: #3B4B5A;            
+    color: #9A3333 !important;            /* Change color on hover */
+
+    font-weight: 400;          /* Make text bold on hover */
+    transition: all 0.1s ease; 
+    img {
+      box-shadow: 0 0 10px rgba(#000, 0.25);
+    }
+  }
+
+
+// .publication-list {
+//   list-style-type: none; /* Remove default bullets */
+//   padding: 0; /* Remove padding */
+// }
+
+// .publication-item {
+//   margin-bottom: 1em; /* Add space between items */
+// }
+
+.paper-title {
+  text-decoration: none; /* Remove underline from links */
+  color: #3F72A0 !important; /* Optional: change color of the paper title */
+  
+}
+
+.paper-title:hover {
+  text-decoration: underline; /* Underline on hover for better accessibility */
+  color: #3B4B5A !important;
+}
+
+// .authors strong {
+//   font-weight: bold; /* Ensure your name is bolded */
+// }
+
+// em {
+//   font-style: italic; /* Italicize conference names */
+// }
+
+// .paper-link {
+//   color: #007BFF; /* Optional: change color of links */
+//   text-decoration: none; /* Remove underline from links */
+//   margin-left: 5px; /* Small spacing between links */
+// }
+
+// .paper-link:hover {
+//   text-decoration: underline; /* Underline on hover */
+// }

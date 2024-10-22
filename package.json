@@ -1,10 +1,10 @@
 {
-  "name": "academic-pages",
+  "name": "zzwaang.github.io",
   "version": "0.8.1.1",
   "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
   "repository": {
     "type": "git",
-    "url": "hhttps://github.com/ZZWaang/ZZWaang.github.io"
+    "url": "https://github.com/ZZWaang/ZZWaang.github.io"
   },
   "keywords": [
     "jekyll",

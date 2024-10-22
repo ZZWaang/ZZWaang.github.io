@@ -16,8 +16,7 @@
 /* Image styling */
 .project-image img {
   width: 80%; /* Full width of the parent container */
-  /* height: auto; /* Maintain aspect ratio */
-  height: fit-content;
+  height: auto;
   display: block; /* Ensure no extra space around the image */
   margin-left: 10%;
   margin-right: 10%;

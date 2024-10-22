@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <h3 style="padding-top: 0; margin-top: 0; 0; margin-bottom: 0.5em; font-size: 1.1em; color: #094480">About Me</h3>
-I am a computer science PhD candidate at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/) of [New York University](https://nyu.edu/), with an affiliation to [NYU Shanghai](https://shanghai.nyu.edu/). I am also a visiting scholar in the Machine Leearning Department at [MBZUAI](https://mbzuai.ac.ae/). I conduct research under the advice of [Prof. Gus Xia](http://www.musicxlab.com/members/gus/) in [Music X Lab](http://www.musicxlab.com). In 2019, I received my undergraduate degree in mathematics at [Fudan University](https://www.fudan.edu.cn/en/). I am also a conductor, pianist, and *Erhu* (Chinese string instrument) player. I was formerly the conductor of NYU Shanghai Jazz Ensemble and director of the Fudan Musical Club.
+I am a computer science PhD candidate at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/) of [New York University](https://nyu.edu/), with an affiliation to [NYU Shanghai](https://shanghai.nyu.edu/). I am also a visiting scholar in the Machine Learning Department at [MBZUAI](https://mbzuai.ac.ae/). I conduct research under the advice of [Prof. Gus Xia](http://www.musicxlab.com/members/gus/) in [Music X Lab](http://www.musicxlab.com). In 2019, I received my undergraduate degree in mathematics at [Fudan University](https://www.fudan.edu.cn/en/). I am also a conductor, pianist, and *Erhu* (Chinese string instrument) player. I was formerly the conductor of NYU Shanghai Jazz Ensemble and director of the Fudan Musical Club.
 
 <h3 style="padding-top: 0; margin-top: 0; 0; margin-bottom: 0.5em; font-size: 1.1em; color: #094480">Research Interest</h3>
 

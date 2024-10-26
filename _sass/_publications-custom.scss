@@ -103,3 +103,23 @@
 // .paper-link:hover {
 //   text-decoration: underline; /* Underline on hover */
 // }
+
+.author__bio{
+a {
+  // text-decoration: underline;
+  text-decoration: none;
+  font-weight: 400;
+  &:hover {
+    // text-decoration: underline;
+    text-decoration: underline;
+    color: #3B4B5A;            
+    // color: #7e1b1b;            /* Change color on hover */
+
+    font-weight: 400;          /* Make text bold on hover */
+    transition: all 0.1s ease; 
+    img {
+      box-shadow: 0 0 10px rgba(#000, 0.25);
+    }
+  }
+}
+}

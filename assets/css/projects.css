@@ -2,7 +2,7 @@
 .project {
   display: flex;
   flex-direction: column; /* Stacks items vertically */
-  width: 98%; /* Full width of the container */
+  width: 100%; /* Full width of the container */
   max-width: 800px; /* Optional: limit max width */
   margin-bottom: 2em; /* Space between projects */
   margin-left: 1%;

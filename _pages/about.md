@@ -8,7 +8,11 @@ redirect_from:
 ---
 
 <h3 style="padding-top: 0; margin-top: 0; 0; margin-bottom: 0.5em; font-size: 1.1em; color: #094480">About Me</h3>
-I am a computer science PhD candidate at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/) of [New York University](https://nyu.edu/), with an affiliation to [NYU Shanghai](https://shanghai.nyu.edu/). I am also a visiting scholar in the Machine Learning Department at [MBZUAI](https://mbzuai.ac.ae/). I conduct research under the advice of [Prof. Gus Xia](http://www.musicxlab.com/members/gus/) in [Music X Lab](http://www.musicxlab.com). In 2019, I received my undergraduate degree in mathematics at [Fudan University](https://www.fudan.edu.cn/en/). I am also a conductor, pianist, and *Erhu* (Chinese string instrument) player. I was formerly the conductor of NYU Shanghai Jazz Ensemble and director of the Fudan Musical Club.
+<!-- I am a computer science PhD candidate at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/) of [New York University](https://nyu.edu/), with an affiliation to [NYU Shanghai](https://shanghai.nyu.edu/). I am also a visiting scholar in the Machine Learning Department at [MBZUAI](https://mbzuai.ac.ae/). I conduct research under the advice of [Prof. Gus Xia](http://www.musicxlab.com/members/gus/) in [Music X Lab](http://www.musicxlab.com). In 2019, I received my undergraduate degree in mathematics at [Fudan University](https://www.fudan.edu.cn/en/). I am also a conductor, pianist, and *Erhu* (Chinese string instrument) player. I was formerly the conductor of NYU Shanghai Jazz Ensemble and director of the Fudan Musical Club. -->
+
+I am a PhD candidate in Computer Science at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/), [New York University](https://nyu.edu/), and hold an affiliation with [NYU Shanghai](https://shanghai.nyu.edu/). Currently, I am also a visiting scholar in the Machine Learning Department at [MBZUAI](https://mbzuai.ac.ae/). My research is conducted under the supervision of [Prof. Gus Xia](http://www.musicxlab.com/members/gus/) in [Music X Lab](http://www.musicxlab.com), where I explore the intersection of music and machine learning.
+
+In 2019, I earned my undergraduate degree in Mathematics from [Fudan University](https://www.fudan.edu.cn/en/). Beyond my academic pursuits, I am a passionate conductor, pianist, and Erhu (a traditional Chinese string instrument) player. I have previously served as the conductor of the NYU Shanghai Jazz Ensemble and as the director of the Fudan Musical Club.
 
 <h3 style="padding-top: 0; margin-top: 0; 0; margin-bottom: 0.5em; font-size: 1.1em; color: #094480">Research Interest</h3>
 
@@ -19,12 +23,13 @@ Particularly, I design generative models that learn to utilize the hierarchical 
 
 Here is a brief overview of my research, organized by topic:
 
+<h3 style="text-align: center;">Hierarchical Music Generation & Arrangement</h3>
 <div class="project">
   <div class="project-image">
     <img src="assets/img/whole-song.png" alt="Project Image">
   </div>
   <div class="project-content">
-    <h3>Hierarchical Music Generation & Arrangement</h3>
+    <!-- <h3>Hierarchical Music Generation & Arrangement</h3> -->
     <ul>
     <li>Whole-song generation via <strong>compositional hierarchy</strong></li>
     <li style="list-style-type: none;">
@@ -42,12 +47,14 @@ Here is a brief overview of my research, organized by topic:
   </div>
 </div>
 
+
+<h3 style="text-align: center;">Representation Learning</h3>
 <div class="project">
   <div class="project-image">
     <img src="assets/img/repr-dis1.png" alt="Project Image">
   </div>
   <div class="project-content">
-    <h3>Representation Learning</h3>
+    <!-- <h3>Representation Learning</h3> -->
     <ul>
     <li>Representation Disentanglement: monophonic & polyphonic</li>
     <li style="list-style-type: none;">
@@ -62,12 +69,13 @@ Here is a brief overview of my research, organized by topic:
 </div>
 
 
+<h3 style="text-align: center;">Unsupervised Concept Emergence</h3>
 <div class="project">
   <div class="project-image">
     <img src="assets/img/v3.png" alt="Project Image">
   </div>
   <div class="project-content">
-    <h3>Unsupervised Concept Emergence</h3>
+    <!-- <h3>Unsupervised Concept Emergence</h3> -->
     <ul>
     <li>Learning content & style via variability constraints</li>
     <li style="list-style-type: none;">
@@ -82,12 +90,13 @@ Here is a brief overview of my research, organized by topic:
 </div>
 
 
+<h3 style="text-align: center;">Music Co-creation & Education</h3>
 <div class="project">
   <div class="project-image">
     <img style="width: 100%;  margin-left: 0%;  margin-right: 0%;" src="assets/img/me-and-teo.png" alt="Project Image">
   </div>
   <div class="project-content">
-    <h3>Music Co-creation & Education</h3>
+    <!-- <h3>Music Co-creation & Education</h3> -->
     <ul>
     <li>Controllable Music Generation</li>
     <li style="list-style-type: none;">
@@ -95,7 +104,7 @@ Here is a brief overview of my research, organized by topic:
     </li>
     <li>Music Education Interface</li>
       <li style="list-style-type: none;">
-      [<a href="https://www.youtube.com/watch?v=Ahfk0hvpCzM&t=3163s" target="_blank">Live</a>][<a href="link-to-paper" target="_blank">StyleWheel</a>]
+      [<a href="https://www.youtube.com/watch?v=Ahfk0hvpCzM&t=3163s" target="_blank">Live</a>][<a href="https://youtu.be/NN4bKA8f3v4" target="_blank">StyleWheel</a>]
     </li>
     </ul>
   </div>

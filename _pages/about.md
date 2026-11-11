@@ -7,11 +7,22 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  .page__content {
+    font-size: 0.9em;
+  }
+</style>
+
 <h3 style="padding-top: 0; margin-top: 0; 0; margin-bottom: 0.5em; font-size: 1.1em; color: #094480">About Me</h3>
 
 I am a Postdoctoral Researcher at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/) at [New York University](https://nyu.edu/), working with [Prof. Yann LeCun](http://yann.lecun.com/) on world models for music. I also hold a visiting affiliation with the Computer Science Department at [MBZUAI](https://mbzuai.ac.ae/). 
 
 Prior to that, I received my PhD in Computer Science from New York University, where I worked on the intersection of music and machine learning under the guidance of [Prof. Gus Xia](http://www.musicxlab.com/members/gus/) in [Music X Lab](http://www.musicxlab.com). During my PhD, I was also a visiting researcher at the Machine Learning Department at MBZUAI and affiliated with [NYU Shanghai](https://shanghai.nyu.edu/). In 2019, I earned my undergraduate degree in Mathematics from [Fudan University](https://www.fudan.edu.cn/en/). Beyond my academic pursuits, I am a passionate conductor, pianist, and Erhu (a traditional Chinese string instrument) player. I have previously served as the conductor of the NYU Shanghai Jazz Ensemble and as the director of the Fudan Musical Club.
+
+<div style="margin: 1.5em 0; color: #c62828; font-family: Verdana, Geneva, sans-serif; font-weight: 400; font-style: italic; line-height: 1.35;">
+  <p style="margin: 0 0 0.3em;"><strong>News:</strong> I will join MBZUAI as an Assistant Professor in January 2027! I am recruiting <strong>talented PhD and MSc students</strong> interested in Music AI and broader questions around building human-level intelligence.</p>
+  <p style="margin: 0;">Prospective students at MBZUAI (and potentially NYU) and collaborators worldwide are welcome to reach out!</p>
+</div>
 
 <h3 style="padding-top: 0; margin-top: 0; 0; margin-bottom: 0.5em; font-size: 1.1em; color: #094480">Research Interest</h3>
 

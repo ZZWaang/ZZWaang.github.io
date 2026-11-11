@@ -2,6 +2,16 @@
    SIDEBAR
    ========================================================================== */
 
+/* FandolKai subset for 汪子俞; license: assets/fonts/fandol-COPYING.txt. */
+@font-face {
+  font-family: "FandolKai";
+  src: url("../fonts/fandol-kai-name.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+4FDE, U+5B50, U+6C6A;
+}
+
 /*
    Default
    ========================================================================== */
@@ -130,7 +140,7 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: "FandolKai", $sans-serif;
   font-size: $type-size-5;
 }
 
